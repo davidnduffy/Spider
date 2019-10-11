@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <!-- Depth of page links to follow (including the starting URI's below). -->
+  <maxdepth>2</maxdepth>
+  <!-- Output path for downloaded files. -->
+  <output>output</output>
+  <uris>
+    <!-- URI's to spider. -->
+    <uri></uri>
+  </uris>
+  <exts>
+    <!-- File extensions to download files for. -->
+    <ext>jpg</ext>
+    <ext>jpeg</ext>
+    <ext>mpg</ext>
+    <ext>mp4</ext>
+    <ext>mts</ext>
+    <ext>mov</ext>
+    <ext>webm</ext>
+  </exts>
+  <filters>
+    <!-- Regular expression filters for excluding or including links based on expression matches.
+         The exclude expression must not match and the include expression must match in order for a link/file to be processed. -->
+    <exclude></exclude>
+    <include></include>
+  </filters>
+</config>
